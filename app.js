@@ -22,5 +22,4 @@ fs.readFile(`./data/file.txt`, `utf-8`, (err, data) => {
           (word = { word: word, vowelCount: word.match(/[aeiou]/gi).length })
       ),
   };
-  module.exports = toSend
 });
